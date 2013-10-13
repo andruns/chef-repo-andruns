@@ -1,0 +1,19 @@
+; 100.168.192.in-addr.arpa
+$TTL 1D
+@         IN  SOA     ns00.andruns.com. root.ns00.andruns.com. (
+                        1       ; serial
+                        1D      ; refresh
+                        1H      ; retry
+                        1W      ; expire
+                        3H )    ; minimum
+          IN  NS      ns00.andruns.com.
+
+10        IN  PTR     ns00.andruns.com.
+30        IN  PTR     cs00.andruns.com.
+40        IN  PTR     cw00.andruns.com.
+200       IN  PTR     dev00.andruns.com.
+201       IN  PTR     dev01.andruns.com.
+202       IN  PTR     dev02.andruns.com.
+203       IN  PTR     dev03.andruns.com.
+204       IN  PTR     dev04.andruns.com.
+205       IN  PTR     dev05.andruns.com.
